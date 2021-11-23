@@ -1,9 +1,9 @@
 import React from 'react'
 
-const TodoListSidebar = () => {
+const TodoListSidebar = (props) => {
     return (
-        <div className="">
-
+        <div className="sidebar">
+            props.lists.map()
         </div>
     )
 }
